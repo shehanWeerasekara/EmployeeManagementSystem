@@ -89,7 +89,7 @@
             this.signup_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.signup_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signup_btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.signup_btn.Location = new System.Drawing.Point(101, 337);
+            this.signup_btn.Location = new System.Drawing.Point(100, 337);
             this.signup_btn.Name = "signup_btn";
             this.signup_btn.Size = new System.Drawing.Size(100, 32);
             this.signup_btn.TabIndex = 10;
@@ -188,7 +188,7 @@
             this.login_btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.login_btn.Location = new System.Drawing.Point(308, 337);
             this.login_btn.Name = "login_btn";
-            this.login_btn.Size = new System.Drawing.Size(84, 32);
+            this.login_btn.Size = new System.Drawing.Size(100, 32);
             this.login_btn.TabIndex = 8;
             this.login_btn.Text = "Login";
             this.login_btn.UseVisualStyleBackColor = false;

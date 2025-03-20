@@ -67,6 +67,19 @@ namespace EmployeeManagementSystem
                             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                             DataTable table = new DataTable();
                             adapter.Fill(table);
+
+                            if(table.Rows.Count >= 1)
+                            {
+                                MessageBox.Show("Login Succesfully", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                MainForm mForm = new MainForm();
+                                mForm.Show();
+                                this.Hide();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Incorrect Username/Password", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
                         }
                     }
                     catch (Exception ex)
