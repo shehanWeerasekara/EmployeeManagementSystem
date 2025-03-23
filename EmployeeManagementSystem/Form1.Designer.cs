@@ -56,7 +56,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(297, 400);
+            this.panel1.Size = new System.Drawing.Size(302, 400);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
@@ -73,7 +73,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(12, 178);
+            this.label6.Location = new System.Drawing.Point(0, 178);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(270, 20);
             this.label6.TabIndex = 11;
