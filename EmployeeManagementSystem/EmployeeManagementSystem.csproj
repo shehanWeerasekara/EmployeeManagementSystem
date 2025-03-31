@@ -58,6 +58,7 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="employeeData.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +85,7 @@
     <Compile Include="Salary.Designer.cs">
       <DependentUpon>Salary.cs</DependentUpon>
     </Compile>
+    <Compile Include="SalaryData.cs" />
     <EmbeddedResource Include="AddEmployee.resx">
       <DependentUpon>AddEmployee.cs</DependentUpon>
     </EmbeddedResource>
@@ -123,6 +125,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Directory\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
